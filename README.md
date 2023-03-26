@@ -1,4 +1,6 @@
 # CPP course - Exercise 2 Cards War Game
+![image](https://user-images.githubusercontent.com/92925727/227800434-5aa567b8-2f11-42c1-a7e2-3a29d3651ec0.png)
+
 
 ### Introduction
 This is my second project in the CPP course - implementatio of cards War game.
