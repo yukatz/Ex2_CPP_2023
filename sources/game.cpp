@@ -1,11 +1,10 @@
 
 #include "game.hpp"
 namespace ariel{
-    Game::Game(){
-
-    }
+    Game::Game(){}
     Game::Game(Player p_1, Player p_2){
-
+     p1=p_1;
+     p2=p_2;
     }
     
     void Game::playTurn(){};

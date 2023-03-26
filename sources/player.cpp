@@ -3,10 +3,9 @@
 namespace ariel{
     
     //Constructor:
-    Player::Player(){
-
-    }
+    Player::Player(){};
     Player::Player(string n){
+        name = n;
     }
 
     int Player::stacksize(){

@@ -12,8 +12,7 @@ class Game{
     Game();
     Game(Player p_1, Player p_2);
 
-    
-    public:
+    //Functions:
     void playTurn();
     void printLastTurn();//print the last turn stats. For example:
                                                     // Alice played Queen of Hearts Bob played 5 of Spades. Alice wins.
