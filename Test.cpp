@@ -42,7 +42,7 @@ TEST_CASE("Game constructor"){
     Game game(p1,p2);
     CHECK_NOTHROW(game.printLastTurn());//The function does not throw an error
 
-    /////Ptint functions test (from chat gpt)/////
+    /////Ptint functions test /////
     ostringstream output;
     streambuf* old_cout = cout.rdbuf(output.rdbuf());
     game.printLastTurn();
@@ -91,7 +91,7 @@ TEST_CASE("printWiner"){
     game.playAll();
     CHECK_NOTHROW(game.printWiner());//The function does not throw an error
 
-    /////Ptint functions test (from chat gpt)/////
+    /////Ptint functions test /////
     ostringstream output;
     streambuf* old_cout = cout.rdbuf(output.rdbuf());
     game.printWiner();
@@ -109,7 +109,7 @@ TEST_CASE("printLog"){
     Game game(p1,p2);
     CHECK_NOTHROW(game.printLog());//The function does not throw an error
 
-    /////Ptint functions test (from chat gpt)/////
+    /////Ptint functions test/////
     ostringstream output;
     streambuf* old_cout = cout.rdbuf(output.rdbuf());
     game.printLog();
@@ -124,7 +124,7 @@ TEST_CASE("printStats"){
     Game game(p1,p2);
     CHECK_NOTHROW(game.printLog());//The function does not throw an error
 
-    /////Ptint functions test (from chat gpt)/////
+    /////Ptint functions test /////
     ostringstream output;
     streambuf* old_cout = cout.rdbuf(output.rdbuf());
     game.printStats();
